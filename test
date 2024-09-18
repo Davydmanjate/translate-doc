@@ -1,0 +1,6 @@
+Ola cria uma sistema em python que traduz documentos em voz ou audio
+
+PyPDF2 (ou outro parser de PDF) para extrair texto de documentos em PDF.
+Googletrans ou DeepL para traduzir o texto extraído.
+gTTS (Google Text-to-Speech) ou pyttsx3 para converter o texto traduzido em áudio.
+pip install PyPDF2 googletrans==4.0.0-rc1 gtts
